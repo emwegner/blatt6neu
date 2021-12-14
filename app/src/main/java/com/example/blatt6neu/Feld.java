@@ -1,7 +1,5 @@
 package com.example.blatt6neu;
 
-import android.widget.Button;
-
 import java.util.Random;
 
 public class Feld {
@@ -9,7 +7,8 @@ public class Feld {
     private boolean flagged;
     private boolean aufgedeckt;
     private int benachbarteBomben;
-    private Button button;
+    public int buttonID;
+
 
     public Feld() {
         Random random = new Random();
@@ -19,16 +18,36 @@ public class Feld {
         aufgedeckt = false;
     }
 
-    public void darstellen() {
-        //button darstellen
-        //beachten ob feld aufgedeckt ist sowie anzahl der anliegenden bomben
-    }
-
     public boolean isMine() {
         return mine;
     }
 
-    public void setBombe(int zahl) {
+    public void setBomben(int zahl) {
         this.benachbarteBomben = zahl;
+    }
+
+    public void aufdecken() {
+        aufgedeckt = true;
+    }
+
+    public int getBenachbarteBomben() {
+        return benachbarteBomben;
+    }
+
+    public boolean isAufgedeckt() {
+        return aufgedeckt;
+    }
+
+    public void setID(int id) {
+        this.buttonID = id;
+    }
+
+    public int getButtonID() {
+        return buttonID;
+    }
+
+
+    public boolean isFlagged() {
+        return flagged;
     }
 }

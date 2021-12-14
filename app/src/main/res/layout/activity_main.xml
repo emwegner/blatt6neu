@@ -1,18 +1,415 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:id="@+id/GridLayout1"
+    android:background="@color/white"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="7"
+    android:orientation="horizontal"
+    android:rowCount="13">
+
+    <ImageButton
+        android:id="@+id/button0"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button3"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button4"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button5"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button6"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:id="@+id/button7"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button9"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button10"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button11"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button12"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button13"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button14"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button15"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button16"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button17"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button18"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button19"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button20"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button21"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button22"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button23"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button24"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button25"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button26"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button27"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button28"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button29"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button30"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button31"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button32"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button33"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button34"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:id="@+id/button35"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button36"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button37"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button38"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button39"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button40"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+    <ImageButton
+        android:id="@+id/button41"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button42"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button43"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button44"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button45"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button46"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button47"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button48"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button49"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button50"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button51"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button52"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button53"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button54"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button55"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button56"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button57"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button58"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button59"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button60"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button61"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button62"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button63"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button64"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button65"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button66"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button67"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button68"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button69"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button70"
+        style="@style/buttonStyle"
+        android:layout_marginLeft="15dp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button71"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button72"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button73"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button74"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/button75"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
+    <ImageButton
+        android:id="@+id/button76"
+        style="@style/buttonStyle"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="20dp"
+        android:layout_row="11"
+        android:layout_column="3"
+        android:textSize="30dp"
+        android:textColor="@color/black"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        />
+
+
+</GridLayout>

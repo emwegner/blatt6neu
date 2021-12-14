@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">blatt6neu</string>
+
+    <string name="smiley">:)</string>
+    <string name="flag">F</string>
+    <string name="bomb">B</string>
+    <string name="default_count">000</string>
+
+
 </resources>
